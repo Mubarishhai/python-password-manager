@@ -3,7 +3,7 @@
 # Author: Shaikh Mubarish
 # Date: 2025
 # ----------------------------------------------------------
-from cryptogra1phy.fernet import Fernet
+from cryptography.fernet import Fernet
 import os
 
 # ---------------------------
