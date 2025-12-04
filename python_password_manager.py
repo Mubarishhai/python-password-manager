@@ -70,7 +70,7 @@ def menu():
             view_passwords()
 
         elif choice == "3":
-            print("Bye! 👋")
+            print("Bye!   have a nice day!👋")
             break
 
         else:
