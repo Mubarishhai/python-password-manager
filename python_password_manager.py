@@ -61,9 +61,9 @@ def menu():
         choice = input("Enter your choice (1/2/3): ")
 
         if choice == "1":
-            website = input("Enter website: ")
-            username = input("Enter username: ")
-            password = input("Enter password: ")
+            website = input("Enter Website: ")
+            username = input("Enter Username: ")
+            password = input("Enter Password: ")
             save_password(website, username, password)
 
         elif choice == "2":
