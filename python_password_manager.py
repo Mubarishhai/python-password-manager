@@ -78,7 +78,7 @@ def view_passwords():
         print("No passwords saved yet.\n")
         return
 
-    print("\n🔐 Saved Passwords:")
+    print("\n🔐 Saved Passwords: DONT WORRY YOUR PASSWORD IS SAFE")
     for row in rows:
         try:
             decrypted = fernet.decrypt(row[3].encode()).decode()
