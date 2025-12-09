@@ -75,7 +75,7 @@ def view_passwords():
     conn.close()
 
     if not rows:
-        print("No passwords saved yet.\n")
+        print("No passwords saved yet TRY AGAIN.\n")
         return
 
     print("\n🔐 Saved Passwords: DONT WORRY YOUR PASSWORD IS SAFE")
