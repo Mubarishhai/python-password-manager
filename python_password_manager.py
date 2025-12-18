@@ -87,9 +87,9 @@ def view_passwords():
         print(f"ID: {row[0]} | Website: {row[1]} | Username: {row[2]} | Password: {decrypted}")
     print("")
 
-# ---------------------------
+# --------------------------
 # Delete password
-# ---------------------------
+# --------------------------
 def delete_password():
     view_passwords()
     try:
