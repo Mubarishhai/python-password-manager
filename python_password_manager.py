@@ -89,7 +89,7 @@ def view_passwords():
 
 # ------------------------
 # Delete password
-# -------------------------
+# ------------------------
 def delete_password():
     view_passwords()
     try:
